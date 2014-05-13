@@ -1,0 +1,454 @@
+
+/*--------------------------------------------------------------*/
+/*--------------------------------------------------------------*/
+
+/*-----PANTALLA 320 px-----------*/
+
+@media screen and (max-width:480px){
+    
+/* ----------------------------------------------------HEADER----------------------------------------*/  
+header{
+  width: 80%;
+  margin: 0 auto;
+  }
+
+header #logo{
+  width: 250px;
+  float: left;
+}
+
+header #logo img{
+width:100%;
+}
+
+header #redes {
+   width: 200px;
+  float: right;
+    margin: 0 auto;
+}
+
+header #redes img{
+    width: 50px;
+  margin-left:7px;
+}
+
+
+/* ----------------------------------------------------section imagen-----------------------------*/ 
+
+#slider{
+clear: both;
+    width:95%;
+    margin: 0 auto; 
+    margin-bottom: 5%;
+
+}
+
+#slider img{
+    width: 100%;
+    border-radius: 15px;
+    
+}
+
+
+/* ----------------------------------------------------scontainer  1-----------------------------*/ 
+
+#cont1{
+width:90%;
+    margin: 0 auto;
+    background-color: #009DE0;
+    border-radius:25px;
+    
+}
+
+#cont1 .audifonos {
+    width:60%;  
+    
+    margin: 0 auto;
+    margin-top: 3%;
+}
+
+#cont1 .audifonos img{
+    width:100%;  
+}
+
+#cont1 .info1{
+ width:95%;
+        font-size:1.em; 
+margin: 0 auto;
+    padding:3%;
+    text-align: justify;
+    font-family: helvetica;
+}
+
+/* ----------------------------------------------------scontainer  2-----------------------------*/ 
+
+#cont2{
+width:90%;
+    margin: 0 auto;
+    clear: both;
+     background-color: #009DE0;
+    border-radius:25px;
+    margin-top:5%;
+    
+}
+
+#cont2 .fotos {
+    width:60%;  
+   margin-top: 3%;
+    margin-bottom: 3%;
+    margin: 0 auto;
+}
+
+#cont2 .fotos img{
+    width:100%;  
+}
+
+#cont2 .info2{
+ width:95%;
+    margin:0 auto;
+    font-family:helvetica;
+    font-size:1.em; 
+    margin: 0% 2% 0 0;
+    padding:3%;
+}
+ 
+/* ----------------------------------------------------twitter-----------------------------*/ 
+    #twitter{
+    clear:both;
+        margin:0 auto;
+        width:70%;
+        margin-top:5%;
+    }
+    
+   footer{
+        clear: both;
+        width:80%;
+        margin:0 auto;
+        border-radius:5px;
+        overflow:hidden;
+        margin-bottom: 3%;
+    }
+    
+    footer .footer{
+        width: 30%;
+        float: left;
+        text-align:center;
+        margin-left:3%;
+        color:#009DE0;
+        font-size:1em;
+        display:block;
+    }
+
+    
+}
+
+    
+
+    
+
+
+
+/*--------------------------------------------------------------*/
+/*--------------------------------------------------------------*/
+
+
+/*-----PANTALLA 481px  A   767px-----------*/       
+    
+@media screen and (min-width:481px) and (max-width:767px){
+    
+    /* ----------------------------------------------------HEADER----------------------------------------*/  
+header{
+  width: 90%;
+  margin: 0 auto;
+    overflow: hidden;
+  }
+
+header #logo{
+  width: 300px;
+  float: left;
+}
+
+header #logo img{
+width:100%;
+}
+
+header #redes {
+   width: 220px;
+  float: right;
+}
+
+header #redes img{
+    width: 60px;
+  margin-left:7px;
+}
+
+
+/* ----------------------------------------------------section imagen-----------------------------*/ 
+
+#slider{
+clear: both;
+    width:80%;
+    margin: 0 auto; 
+    margin-bottom: 3%;
+
+}
+
+#slider img{
+    width: 100%;
+    border-radius: 20px;
+    
+}
+
+
+/* ----------------------------------------------------scontainer  1-----------------------------*/ 
+
+#cont1{
+width:70%;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: #009DE0;
+    border-radius:25px;
+    padding: 2%;
+    
+}
+
+#cont1 .audifonos {
+    width:50%;  
+    
+    margin:0 auto;
+    margin-top: 3%;
+}
+
+#cont1 .audifonos img{
+    width:100%;  
+}
+
+#cont1 .info1{
+ width:80%;
+    margin:0 auto;
+    font-size:1.em; 
+    font-family:helvetica;
+   }
+
+/* ----------------------------------------------------scontainer  2-----------------------------*/ 
+
+#cont2{
+width:70%;
+    margin: 0 auto;
+    clear: both;
+    background-color: #009DE0;
+    border-radius:25px;
+    padding:2%;
+    margin-top:5%;
+    
+}
+
+#cont2 .fotos {
+    width:50%;  
+    margin:0 auto;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+#cont2 .fotos img{
+    width:100%;  
+}
+
+#cont2 .info2{
+ width:80%;    
+    font-size:1.em; 
+    margin:0 auto;
+    font-family:helvetica;
+}
+ 
+/* ----------------------------------------------------twitter-----------------------------*/ 
+    #twitter{
+    clear:both;
+        margin:0 auto;
+        width:70%;
+        margin-top:5%;
+    }
+    
+  /* ----------------------------------------------------footer-----------------------------*/  
+    
+    footer{
+        clear: both;
+        width:80%;
+        margin:0 auto;
+        border:1px solid #009DE0;
+        border-radius:5px;
+        overflow:hidden;
+        margin-bottom: 3%;
+    }
+    
+    footer .footer{
+        width: 25%;
+        float: left;
+        text-align:center;
+        margin-left:3%;
+        color:#009DE0;
+        font-size:1em;
+    }
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----PANTALLA 768px  A   10920px-----------*/
+       
+    
+@media screen and (min-width:768px) and (max-width:1920px){
+       /* ----------------------------------------------------HEADER----------------------------------------*/  
+header{
+  width: 90%;
+  margin: 0 auto;
+    overflow: hidden;
+  }
+
+header #logo{
+  width: 300px;
+  float: left;
+}
+
+header #logo img{
+width:100%;
+}
+
+header #redes {
+   width: 260px;
+  float: right;
+}
+
+header #redes img{
+    width: 70px;
+  margin-left:7px;
+}
+
+
+/* ----------------------------------------------------section imagen-----------------------------*/ 
+
+#slider{
+clear: both;
+    width:70%;
+    margin: 0 auto; 
+    margin-bottom: 3%;
+    margin-top: 5%;
+
+}
+
+#slider img{
+    width: 100%;
+    border-radius: 20px;
+    
+}
+
+
+/* ----------------------------------------------------scontainer  1-----------------------------*/ 
+
+#cont1{
+width:30%;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: #009DE0;
+    border-radius:25px;
+    padding: 1%;
+    float:left;
+    margin-left: 15%;
+    
+    
+}
+
+#cont1 .audifonos {
+    width:60%;  
+    
+    margin:0 auto;
+    }
+
+#cont1 .audifonos img{
+    width:100%;  
+}
+
+#cont1 .info1{
+ width:90%;
+    margin:0 auto;
+    font-size:1.1em; 
+    font-family:helvetica;
+   }
+
+/* ----------------------------------------------------scontainer  2-----------------------------*/ 
+
+#cont2{
+width:30%;
+    margin: 0 auto;
+    
+    background-color: #009DE0;
+    border-radius:25px;
+    padding:1%;
+    float:right;
+    margin-bottom: 5%;
+    
+    margin-right:15%;
+    
+}
+
+#cont2 .fotos {
+    width:50%;  
+    margin:0 auto;
+    
+}
+
+#cont2 .fotos img{
+    width:100%;  
+}
+
+#cont2 .info2{
+ width:90%;    
+    font-size:1.1em; 
+    margin:0 auto;
+    font-family:helvetica;
+}
+ 
+/* ----------------------------------------------------twitter-----------------------------*/ 
+    #twitter{
+    clear:both;
+        margin:0 auto;
+        width:30%;
+        margin-top:5%;
+        margin-bottom: 5%;
+        margin-left:15%;
+        float: left;
+    }
+    
+   /* ----------------------------------------------------footer-----------------------------*/  
+    
+    footer{
+        clear: both;
+        width:80%;
+        margin:0 auto;
+        border:1px solid #009DE0;
+        border-radius:5px;
+        overflow:hidden;
+        margin-bottom: 3%;
+    }
+    
+    footer .footer{
+        width: 25%;
+        float: left;
+        text-align:center;
+        margin-left:5%;
+        color:#009DE0;
+        font-size:1em;
+    }
+}
